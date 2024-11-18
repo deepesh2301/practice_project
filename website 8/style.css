@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: helvetica;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.upper{
+    width: 100%;
+    height: 5%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+.left ul{
+    display: flex;
+    margin-left: 40px;
+    gap: 40px;
+    list-style: none;
+}
+
+.middle{
+    margin-left: -260px;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+    margin: 0 40px;
+    
+}
+.right button{
+    padding: 10px 30px ;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+.right i{
+    margin: 10px ;
+    font-size: 18px;
+}
+.page1{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    padding: 0 20px;
+}
+.page1-image{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    background-image: url(https://media.istockphoto.com/id/2175629139/photo/cheerful-siblings-with-gift-boxes-celebrating-raksha-bandhan-festival.jpg?s=2048x2048&w=is&k=20&c=xLVAT2XZA3GYimwWG477AXbrQAHyy08lqAvIGBgNp40=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.page1-image-text h1{
+    
+    font-size: 50px ;
+    margin: 0 30px ;
+    color: white;
+}
+.page1-image-text-p-button {
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+    margin: 20px 30px 100px 30px;
+    color: rgba(255, 255, 255, 0.795);
+}
+.page1-image-text-p-button button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+transition: 0.3s all ease;
+}
+.page1-image-text-p-button button:hover{
+   background-color: black;
+   color: white;
+
+}
+.heading{
+    width: 100%;
+    /* height: 30%; */
+    text-align: center;
+    /* background-color: green; */
+    margin-top: 10%;
+}
+.heading h2{
+    font-size: 50px;
+    margin: 18px;
+}
+.heading p {
+    color: rgb(203, 201, 201);
+    margin: 20px ;
+  }
+
+  .collection{
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    padding: 40px;
+  }
+  .collection-image{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    gap: 20px;
+
+  }
+  .collection-image1,.collection-image2, .collection-image3{
+    width: 33%;
+    height: 100%;
+    /* background-color: darkblue; */
+  }
+  .collection-image1 img, .collection-image2 img, .collection-image3 img {
+    
+    object-fit: cover;
+    width: 100%;
+    height: 75%;
+    border-radius: 20px;
+
+  }
+  .collection-image1 h2,.collection-image2 h2,.collection-image3 h2{
+    font-size: 35px;
+margin: 15px 0;
+  }
+  .collection-image1 p,.collection-image2 p,.collection-image3 p {
+    color: rgba(222, 221, 221, 0.995);
+  }
+  .page2{
+    width: 100%;
+    height: 80%;
+    padding: 40px;
+    text-align: center;
+
+}
+.page2-img{
+      border-radius: 20px;
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1609151162377-794faf68b02f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .page2 h2{
+    margin: 40px 0  20px 0;
+    font-size: 40px;
+  }
+  .page2 p {
+    color: rgb(214, 214, 214);
+  }
+  .page2 button{
+    padding: 15px 50px ;
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .select{
+    width: 100%;
+    height: 70%;
+    padding: 40px ;
+  }
+
+  .select-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.select-img1{
+    background-image: url(https://images.unsplash.com/photo-1521151716396-b2da27b1a19f?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+      margin: 5px;
+    width: 33%;
+    height: 100%;
+  }
+  .select-img2{
+    background-image: url(https://media.istockphoto.com/id/1193750118/photo/beautiful-asian-woman-carrying-colorful-bags-shopping-online-with-mobile-phone.jpg?s=2048x2048&w=is&k=20&c=Yyvg4vrUdJ7RXvtEvh_qEuAdE4sQkARcK8fE7YcdFNU=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+      margin: 5px;
+    width: 33%;
+    height: 100%;
+     
+  }
+  .select-img3{
+    background-image: url(https://media.istockphoto.com/id/852208914/photo/family-shopping-and-running-towards-the-camera-at-the-mall.jpg?s=2048x2048&w=is&k=20&c=Lozyg4XI6WSw0TKPdihIq1Rkv7NnwrtoLG6NCrkm-ig=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+      margin: 5px;
+    width: 33%;
+    height: 100%;
+  }
+  .select-img1 h2, .select-img2 h2, .select-img3 h2{
+    padding: 380px 0 0 40px ;
+    font-size: 40px;
+    color: white;
+  }
+  .select-img1 button, .select-img2 button, .select-img3 button{
+    margin: 12px 0 0 40px;
+    padding: 10px 38px ;
+    border: none;
+    border-radius: 50px ;
+  }

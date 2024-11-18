@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Step Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Event Registration</h2>
+    <form id="registrationForm">
+      <!-- Step 1 -->
+      <div class="form-step active">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+
+      <!-- Step 2 -->
+      <div class="form-step">
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+          <option value="">Choose an event</option>
+          <option value="workshop">Workshop</option>
+          <option value="seminar">Seminar</option>
+          <option value="networking">Networking</option>
+        </select>
+        
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+      <!-- Step 3 -->
+      <div class="form-step">
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" placeholder="Enter any comments"></textarea>
+        
+        <div class="btn-group">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+</body>
+</html>

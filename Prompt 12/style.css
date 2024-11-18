@@ -1,0 +1,95 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+/* General Reset */
+body, html {
+  
+    
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form-box h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-box p {
+    color: #666;
+}
+
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1b4dbb;
+}
+
+.hidden {
+    display: none;
+}
+
+#success-message {
+    margin-top: 15px;
+    color: #28a745;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .form-box {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flyer {
+  background: linear-gradient(135deg, #cba2f7, #2575fc);
+  color: white;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flyer .header {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flyer .header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.flyer .header p {
+  font-size: 1.1em;
+  margin: 5px 0 0;
+}
+
+.flyer .details {
+  padding: 20px;
+  background-color: white;
+  color: #333;
+}
+
+.flyer .details h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.flyer .details p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.flyer .details .highlight {
+  color: #2575fc;
+  font-weight: bold;
+}
+
+.flyer .footer {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flyer .footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.flyer .footer a:hover {
+  background-color: white;
+  color: #2575fc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .flyer .header h1 {
+    font-size: 1.5em;
+  }
+
+  .flyer .details h2 {
+    font-size: 1.2em;
+  }
+
+  .flyer .footer a {
+    font-size: 0.9em;
+  }
+}

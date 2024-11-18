@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+div{
+    width: 400px;
+    /* height: 500px; */
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.769);
+    border-radius: 10px;
+}
+div img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 10%;
+    
+
+}
+div h1{
+    font-size: 40px;
+    line-height: 60px;
+margin-top: 10px;
+}
+
+div p {
+    font-weight: 500;
+    margin: 0px 15px;
+    
+    /* background-color: red; */
+    font-size: 20px;
+    line-height: 20px;
+}
+button{
+    border-radius: 5px; 
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 128, 0, 0.769);
+   
+    text-decoration: none;
+    margin: 15px ;
+   
+    padding: 8px 20px 
+}
+.Follow{
+    background: #0077cc;
+    color: #fff;
+}

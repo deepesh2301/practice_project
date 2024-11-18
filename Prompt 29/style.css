@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: helvetica;
+}
+
+.nav {
+    width: 100%;
+    line-height: 50px;
+}
+
+#right {
+    width: 100%;
+    line-height: 50px;
+}
+
+#right>ul {
+    float: right;
+}
+
+#right>ul>li {
+    display: inline-block;
+    font-family: helvetica;
+
+}
+
+#right a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px
+}
+
+#right a:last-child {
+    padding-right: 30px;
+}
+
+.nav i {
+    font-size: 20px;
+    padding: 30px 20px;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+#right {
+    width: 50%;
+    height: 150%;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    background-image: url(photo-1524805444758-089113d48a6d.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+
+.top {
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    left: 4%;
+    top: 8%;
+}
+
+.ttop {
+    height: 45%;
+    width: 100%;
+    display: flex;
+}
+
+.ttleft {
+    width: 40%;
+    height: 100%;
+}
+
+.ttleft>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ttright {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    font-family: helvetica;
+}
+
+.ttright h1 {
+    margin-left: 20%;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ttright p {
+    margin-left: 20%;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.71);
+}
+
+.size {
+    margin-top: 10px;
+    margin-left: 20%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.size a {
+    color: black;
+    text-decoration: none;
+}
+
+.size button {
+    background-color: white;
+    border: .5px solid rgba(128, 128, 128, 0.71);
+    font-size: 15px;
+    padding: 10px 8px;
+}
+
+.heading h1 {
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.heading p {
+    margin-left: 20%;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.71);
+}
+
+.button {
+    margin-left: 100px;
+}
+
+.button>#B {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+    padding: 16px 18px;
+}
+
+.button>#S {
+    margin-top: 20px;
+    padding: 16px 18px;
+    border: 1px solid black;
+}
+
+.tbottom {
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    height: 55%;
+    background-color: white;
+}
+
+.heading2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    font-weight: 300;
+}
+
+.heading2 span {
+    line-height: 60px;
+}
+
+.heading2>p {
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.71);
+}
+
+.boxes-img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 3%;
+    margin-left: 3%;
+}
+
+
+.boxes-img>.box1>img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.boxes-img>.box2>img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.boxes-img>.box3 img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.445);
+    background-image: url(https://images.unsplash.com/photo-1477925518023-22b33cbd802c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    
+}
+.header1{
+    width: 50%;
+    height: 100%;
+}
+.header1 .heading{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.header1 .email{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+color: rgba(0, 0, 0, 0.788);
+    width: 100%;
+    height: 50%;
+}
+
+.header2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.name {
+    font-size: 100px;
+    width: 50%;
+    text-align: center;
+    
+}
+.name .n{
+    font-size: 150px;
+    text-shadow: 0px 21px 20px black;
+
+    width: 50%;
+    text-align: center;
+    color: orange;
+
+}
+.date{
+    width: 25%;
+    height: 20%;
+    background-color: rgba(255, 166, 0, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.date1 i{
+    width: 20px;
+    height: 20%;
+    font-size: 100px;
+    color:white;
+}
+.date2{
+    color:white;
+margin-left: 20px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.points{
+    font-size: 55px;
+    margin: 80px 0 0 50px;
+    display: flex;
+    gap: 30px;
+    color: rgb(39, 31, 23);
+    text-shadow:2px 2px 0px orange;
+}
+
+.image{
+   background-image: url(https://images.unsplash.com/photo-1552604617-eea98aa27234?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    border-radius: 80px 0 80px 0;
+    height: 65%;
+    background-color: black;
+    position:absolute;
+    right: 20px;
+    top: 20%;
+}

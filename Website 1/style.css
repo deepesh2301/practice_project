@@ -1,0 +1,336 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #fffefe89;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(173, 202, 202); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 50px;
+    width:150px ;
+    /* height: 50%; */
+    /* background-color: rebeccapurple; */
+
+}
+.search{
+    width: 45%;
+    height: 20%;
+    /* background-color: red; */
+    margin-left: 150px;
+    
+}
+.search  input{
+    font-size: 15px;
+    width: 95%;
+    padding: 15px 20px ;
+    border-radius: 50px;
+    border: 2px solid rgb(196, 194, 194);
+    outline: none;
+    box-shadow: 0px 0px 2px rgba(202, 200, 200, 0.922);
+}
+.search i{
+    margin-left: -40px;
+    font-size: 20px;
+}
+
+.home{
+   display: flex;
+   gap: 20px;
+}
+.home button{
+    font-size: 15px ;
+    padding: 15px 30px;
+    margin-top:20px;
+    display: flex;
+    border: none;
+    background: transparent;
+}
+.home i{
+    margin: 0px 5px ;
+}
+.bag button{
+    background-color: rgba(220, 220, 220, 0.817);
+    border-radius: 50px;
+}
+.bag i{
+    margin:0px  5px;
+}
+
+header{
+    margin-top:20px ;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+header a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+   margin-left:30px ;
+   
+}
+
+header i {
+    font-size: 18px;
+}
+
+.heading{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading .head{
+    width: 25%;
+    height: 100%;
+    box-shadow: 1px 1px 5px gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35PX;
+    line-height: 18PX;
+    font-weight: 600;
+}
+.line {
+    text-align: center;
+    margin:10px 0;
+}
+.image1{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-BELZdIb_3.jpg&width=2000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.box{
+    width: 100%;
+    height: 80%;
+}
+.box1, .box2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes1{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-5GAZblMCX.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes2{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-VPFzTfBSO.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes3{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-BbDFGRpex.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes4{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-J6Ib867M3.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes5{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-TmKeE2gzU.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes6{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-arZ_Plu-b.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes7{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+   background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-HStYk7jHp.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.boxes8{
+    margin: 10px;
+    width: 20%;
+    height: 95%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-DfbLsj2hH.jpg&width=1000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tamplate{
+    width: 100%;
+    height: 60%;
+    margin: 15px auto ;
+}
+.tem1{
+    margin: auto;
+    width: 84%;
+    /* height: 30%;background-color: aqua; */
+    text-align: center;
+    /* background-color: rgba(240, 239, 239, 0.39); */
+    /* background-color: rgba(122, 110, 110, 0.39); */
+    border-top: 0.5px solid rgba(0, 0, 0, 0.091);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.091);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.091);
+}
+.tem1 h1{
+    font-weight: 500;
+    padding: 20px 0;
+}
+.tem1 p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.tem1 button{
+    margin: 10px;
+    padding: 8px  ;
+    font-size: 12px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 1px black;
+}
+.tem2{
+    margin: auto;
+    width: 84%;
+    height: 70%;
+    display: flex;
+    /* background-color: rgba(122, 110, 110, 0.39); */
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.091);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.091);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.091);
+    
+}
+.tem2-box{
+    width: 20%;
+    height: 97%;
+    /* background-color: rebeccapurple; */
+    margin: 5px ;
+    border: 0.5px solid rgba(128, 128, 128, 0.053);
+}
+.tem2-box img{
+    width: 100%;
+    height: 70%;
+}
+.tem2-box button{
+    margin: 15px 8px;
+    padding: 10px 80px ;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px  black;
+    transition: 0.3s all ease;
+}
+.tem2-box button:hover{
+    color: white;
+    background-color: black;
+}
+
+.image2{
+    width: 100%;
+    height: 20%;
+    background-image: url(https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.ap-south-1.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fresources%2Fimage-yhEpnBQTt.jpg&width=2000&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+}
+footer{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(128, 128, 128, 0.244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    padding:0  50px ;
+    width: 84%;
+    height:90%;
+    /* background-color: darkblue; */
+    display: flex;
+
+    
+
+}
+.footer-box img{
+    margin-right:30px ;
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px
+    
+}
+.footer-box h2{
+    font-size: 20px;
+    padding:  20px 50px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.589);
+    
+}
+.footer-box h2 strong{
+    font-size: 35px;
+}
+.footer-box button{
+    display: block;
+    margin: 35px  0 ;
+    padding: 8px 16px ;
+    font-size: 20px ;
+    background-color: rgba(15, 80, 85, 0.689);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+    transition: 0.3s all ease;
+}
+
+.footer-box button:hover{
+    color: white;
+    background-color: black;
+}

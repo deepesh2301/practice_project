@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: helvetica;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+#main {
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    margin: 2%;
+    background-color: black;
+    box-shadow: 0 0 1px rgb(148, 142, 142);
+    border-radius: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav i {
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+nav h2 {
+    color: white;
+}
+
+.links {
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(177, 166, 166);
+}
+
+.links a span{
+    color: white;
+}
+.button {
+    margin-right: 5%;
+}
+
+.button>button {
+    font-size: 18px;
+    margin: 20px;
+    padding: 14px 28px;
+    color: white;
+    border: none;
+    background-color: rgba(58, 58, 239, 0.934);
+    border-radius: 50px;
+}
+
+.button button:first-child {
+    background: none;
+    border: none;
+    color: white;
+}
+
+#main .heading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    color: white;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 70px;
+    font-family: helvetica;
+    line-height: 120px;
+}
+
+.heading>h1>span {
+    color:  rgb(177, 166, 166);
+}
+
+.heading p {
+    font-size: 20px;
+}
+
+.heading button {
+    font-size: 18px;
+    color: white;
+    margin: 20px;
+    margin-top: 35PX;
+    padding: 14px 28px;
+    background-color: rgba(58, 58, 239, 0.934);
+    border: none;
+    border-radius: 50px;
+}
+
+.bottom-nav {
+    font-family: helvetica;
+    font-size: 25px;
+    width: 100%;
+    color: white;
+    margin: 5%;
+    display: flex;
+    position: relative;
+}
+
+.bottom-nav {
+    position: absolute;
+    top: 48%;
+}
+
+.bottom-nav>a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 13%;
+}
+
+.boxes {
+    color: white;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    margin-left: 7%;
+    top: 63%;
+}
+
+.boxes>.box1 {
+    width: 370px;
+    height: 200px;
+    box-shadow: 0 0 4px rgb(148, 142, 142);
+    border-radius: 10px;
+}
+
+.boxes>.box2 {
+    color: white;
+    width: 370px;
+    height: 200px;
+    background-color: rgba(58, 58, 239, 0.934);
+    border-radius: 10px;
+}
+
+.boxes>.box3 {
+    width: 370px;
+    height: 200px;
+    box-shadow: 0 0 4px rgb(148, 142, 142);
+    border-radius: 10px;
+}
+
+.contain {
+    padding: 20px;
+}
+
+.contain>.para {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.contain>h1 {
+    font-size: 35px;
+    line-height: 65px;
+}
+
+.contain>a {
+    color: white;
+    line-height: 55px;
+    text-decoration: none;
+}
+
+.contain>p {
+    color: rgba(255, 255, 255, 0.653);
+}

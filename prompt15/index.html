@@ -1,0 +1,77 @@
+<!-- #Prompt15: Create a form for a travel booking service with drop-downs and date pickers. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Booking Form</h1>
+        <form action="#" method="POSt">
+            <!-- Destination  -->
+            <div class="form_selection">
+                <label for="destination">Destination</label>
+            <select name="destination" id="destination" name="destination" required>
+                <option value="">Select Destination</option>
+                <option value="paris">Paris, France</option>
+                <option value="london">London, UK</option>
+                <option value="new-york">New York, USA</option>
+                <option value="tokyo">Tokyo, Japan</option>
+                <option value="sydney">Sydney, Australia</option>
+            </select>
+
+            </div>
+            <div class="form_selection">
+                <label for="departure-date">Depature Date</label>
+                <input type="Date" id="departure-date" name="departure_date" required>
+   
+                <!-- Return date -->
+                <label for="return-date">Return Date</label>
+                <input type="Date" id="return-date" name="return-date" required>
+            </div>
+            <!-- Depature Date -->
+           
+<div class="form_selection">
+    <!-- Number of Travelers -->
+    <label for="num-travelers">Number of Travelers</label>
+    <input type="number" id="num-travelers" min="1" max="10" name="num_travelers" required>
+</div>
+
+             
+<div class="form_selection">
+    <!-- Email -->
+     <label for="contact-email">Your Email Address</label>
+     <input type="email" id="contact-email" placeholder="Email" name="contact_email" required>
+
+</div>
+<div class="form_selection">
+
+    <!-- Travel Class -->
+  <label for="travel-class">Travel Class</label>
+<select name="travel_class" id="travel-class">
+    <option value="">Economy Class</option>
+    <option value="">Business Class</option>
+    <option value="">First Class</option>
+
+</select>
+</div>
+
+<div class="form_selection">
+    <!-- Special Request Optional -->
+    <label for="special-requests"> Special Request Optional</label>
+    <textarea name="special_requests" id="special-requests" rows="4" placeholder="Enter any special requests (e.g., dietary needs, seat preferences)" id=""></textarea>
+
+</div>
+
+            <!-- button -->
+             <button>Book Your Trip</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

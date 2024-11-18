@@ -1,0 +1,425 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 220, 220, 0.146);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    
+}
+nav{
+    width: 100%;
+    height: 10%;
+    /* background-color:rgb(164, 164, 164); */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav-logo h1 span{
+    color: orange;
+    margin-left: -5px;
+}
+.nav-logo ul {
+   
+    display: flex;
+    margin: 100px;
+    gap: 60px;
+}
+.nav-logo ul li{
+    display: flex;
+    transition: 0.3s all ease;
+}
+.nav-logo ul li:hover{
+    color: rgba(255, 166, 0, 0.696);
+}
+
+.nav-button{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    gap: 30px;
+    padding: 0 50px ;
+}
+.nav-button button{
+    padding: 10px 20px   ;
+    font-size: 13px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+
+}
+.nav-button .Login{
+    background-color: transparent;
+    color: black;
+/* box-shadow: 0 0 2px gray;     */
+border: 1px solid gray;
+}
+.nav-button .Register{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.search{
+    width: 100%;
+    height: 10%;
+    /* background-color: rebeccapurple; */
+    /* display: flex; */
+    padding: 20px 50px;
+position: relative;
+}
+
+.search i {
+    position: absolute;
+    margin-left: 15px;
+}
+.search ul input{
+    border-radius: 50px;
+    border: none;
+    width: 30%;
+    padding: 15px 40px;
+    background-color: rgba(128, 128, 128, 0.155);
+
+}
+.search ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.search ul li {
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.155);
+    /* background-color: red; */
+    padding: 12px 20px  12px  50px;
+position: relative;
+border-radius: 50px;
+}
+.search ul li i{
+    background-color: rgba(255, 255, 255, 0.986);
+position: absolute;
+left: 3px ;
+top: 6px;
+padding: 5px;
+border-radius: 50px;
+    /* padding-left: 20px; */
+}
+.search .Hotels {
+    color: white;
+    background-color: black;
+}
+.search .Hotels i {
+    background-color: white;
+    color:black;
+}
+
+
+.page1{
+    width: 100%;
+    height: 80%;
+    /* background-image: url(https://images.unsplash.com/photo-1731000892655-5a0d52e8a43c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* margin: 10px 20px; */
+    position: relative;
+}
+.page1-image{
+    width: 98%;
+    margin: 1%;
+    height: 100%;
+   /* background-color: red; */
+    background-image:  url(https://images.unsplash.com/photo-1731000892655-5a0d52e8a43c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page1-image h1{
+    font-size: 45px;
+    padding: 120px 80px 60px 120px ;
+    color: white;
+    font-weight: 500;
+}
+.page1-image button{
+    padding: 12px 18px 12px 10px ;
+    margin-left: 120px;
+    border-radius: 50px;
+    border: none;   
+    background-color: black;
+    color: white;
+
+}
+.page1-image button i{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 50px;
+    margin-right: 2px;
+}
+.page1-image p {
+    margin: 80px 120px;
+    color: rgba(255, 255, 255, 0.637);
+    
+}
+
+.hotel-booking {
+    max-width:500px;
+    height: 78%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20%;
+    top: 50px;
+  }
+  
+  .hotel-booking h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, select, .hotel-booking button {
+    width: 350px;
+    margin-top: 3px;
+    padding: 4px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+ .hotel-booking button {
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+ .hotel-booking button:hover {
+    background-color: #0056b3;
+  }
+
+  .best-event{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    padding: 0 150px ;
+
+  }
+  .best-event h1 {
+    font-size: 55px;
+    margin-left: -50px;
+    font-weight: 500;
+  }
+  .best-event p {
+    color: rgba(129, 127, 127, 0.79);
+  }
+  .page2{
+    width: 96%;
+    margin: 0 2%;
+    height: 50%;
+    /* background-color: red; */
+  }
+  .page2-image{
+    padding: 200px 50px;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/group-people-climb-hehuan-mountain-enjoy-scenery-along-way_900685-250.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .page2-image h1{
+    position: absolute;
+    right: 130px;
+
+    color: white;
+  }
+  .page2-image p {
+    position: absolute;
+    top: 65%;
+    right: 100px;
+
+    color: rgba(255, 255, 255, 0.603);
+    margin: 20px 0 ;
+  }
+  .page2-image button{
+    position: absolute;
+    top: 85%;
+    right: 130px;
+
+    padding: 12px 15px ;
+    border-radius: 12px;
+    border: none;
+  }
+  .page2-image button i {
+    margin: 0 10px ;
+    color: rgba(0, 0, 0, 0.667);
+  }
+
+  .box{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+  }
+  .boxes{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    margin-left: 2%;
+  }
+  .box1,.box2,.box3,.box4{
+    margin-right: 2%;
+    width: 30%;
+    height: 100%;
+    /* background-color: hotpink; */
+    border-radius: 20px;
+    padding: 300px 0 0 40px;
+    color: white;
+
+  }
+ .box1{
+    background-image: url(https://images.unsplash.com/photo-1502784444187-359ac186c5bb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .box2{
+    background-image: url(https://images.unsplash.com/photo-1664109074701-6c95090e852e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .box3{
+    background-image: url(https://images.unsplash.com/photo-1514467911470-2b2492c64477?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .box4{
+    background-image: url(https://images.unsplash.com/photo-1462486387766-dcf408d34ece?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+ }
+  .box1 p, .box2 p, .box3 p, .box4 p{
+    color: rgba(255, 255, 255, 0.712);
+    margin: 20px 0;
+
+  }
+  .box1 button, .box2 button, .box3 button, .box4 button{ 
+    padding: 15px 20px;
+    width: 60%;
+    border-radius: 50px;
+    border: none;
+
+  }
+  .box1 button i  {
+    color: rgba(0, 0, 0, 0.667);
+  }
+
+  .box2, .box3, .box4{
+    width: 20%;
+  }
+
+footer{
+    margin: 20px 0;
+    width: 96%;
+    height: 90%;
+    margin: 2%;
+    background-color: black;
+}
+.triptrap{
+    width: 100%;
+    height: 40%;
+    /* background-color: rebeccapurple; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triptrap h1{
+    font-size: 280px;
+    color: white;
+}
+.bottom{
+    width: 100%;
+    height: 60%;
+    padding: 50px;
+    color: white;
+    display: flex;
+}
+.bottom1{
+    /* background-color: red; */
+    width: 30%;
+    height: 80%;
+}
+.bottom1 h1 {
+    margin: 20px 0;
+}
+.bottom1 p {
+    font-size: 18px;
+}
+.bottom2, .bottom3, .bottom4, .bottom5{
+    width: 20%;
+}
+.bottom2 h1, .bottom3 h1, .bottom4 h1, .bottom5 h1{
+    font-size: 20px;
+    margin: 20px 0 ;
+}
+.bottom2 ul li, .bottom3 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.658);
+}
+.bottom2 a, .bottom3 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.658);
+
+}
+ .bottom4 p , .bottom5 p{
+    color: rgba(255, 255, 255, 0.658);
+
+}

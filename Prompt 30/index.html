@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .team-section {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #ffffff;
+    }
+
+    .team-section h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .team-section p {
+      color: #666;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .team-member {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-member img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .team-member h2 {
+      font-size: 1.5em;
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .team-member p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+
+    .team-member .social-icons a {
+      text-decoration: none;
+      color: #666;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    .team-member .social-icons a:hover {
+      color: #007bff;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .team-section h1 {
+        font-size: 2em;
+      }
+
+      .team-section p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="team-section">
+    <h1>Meet Our Team</h1>
+    <p>Passionate professionals dedicated to building amazing products for a better tomorrow.</p>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://images.unsplash.com/photo-1664575600796-ffa828c5cb6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Member 1">
+        <h2>John Doe</h2>
+        <p>CEO & Founder</p>
+        
+      </div>
+      <div class="team-member">
+        <img src="https://media.istockphoto.com/id/2148418016/photo/online-advertising-powered-by-ai-concept-cto-chief-technology-officer-man-working-online.jpg?s=2048x2048&w=is&k=20&c=05qilW6Th2DROf2__bMvGdF7WDDfQjorTqRj5bwQ-d0=" alt="Team Member 2">
+        <h2>Jane Smith</h2>
+        <p>CTO</p>
+       
+      </div>
+      <div class="team-member">
+        <img src="https://marketech-apac.com/wp-content/uploads/2024/01/Untitled-design-2.webp" alt="Team Member 3">
+        <h2>Emma Brown</h2>
+        <p>Head of Marketing</p>
+       
+      </div>
+      <div class="team-member">
+        <img src="https://blog.checkiant.com/images/portrait-male-programmer-office_fmxi3y.jpg" alt="Team Member 4">
+        <h2>Chris Wilson</h2>
+        <p>Lead Developer</p>
+       
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
